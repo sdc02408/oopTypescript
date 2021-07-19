@@ -8,4 +8,11 @@
 
     }
 
+    //Tuple 서로 다른 타입을 같이 갖을 수 있어   권장하지 않아 .  [0] 이런거 권장하지 않아
+    //intergace 나 type alias class로 사용
+    let student: [string, number]
+    student = ['name', 123]
+    student[0] //name
+    const [name, age] = student;
+
 }
