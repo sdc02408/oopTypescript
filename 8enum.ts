@@ -21,4 +21,10 @@
     let day: DAYS = DAYS.FIR;
     day = 12;
 
+    //union  대부분
+    type DaysOfweek ="Monday" | "Tuesday";
+
+    let dayOfweek: DaysOfweek = 'Monday'
+
+    
 }
